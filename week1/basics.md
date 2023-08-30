@@ -34,18 +34,19 @@
 - Datatypes
     - primitive
         - String
-        - Number
+            - "" -> false
+        - Number -> 0
         - Boolean
 
 - Operators
     - arithmetic
-        - +,-,*,/, **, %
+        - +,*,/, **, %
     - assignment
-        =,u+=,-=,*=,/=
+        =,+=,-=,*=,/=, ++, --, // -> floor division (in python)
     - comparison
         ==,===, <,>, <=, >=
     - logical
-        !,&&,||
+        !,&&,||, not, and, or (python)
 
 - conditionals
     - if, if else, else
