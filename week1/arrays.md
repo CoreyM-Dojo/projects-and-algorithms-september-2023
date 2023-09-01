@@ -45,11 +45,11 @@
 
 #### Methods that search the array
 
-- includes
-- find
-- some
-- every
-- indexOf
+- includes -> return true or false if the value passed in is within the array
+- find -> find the first instance, that matches the condition
+- some -> return true or false if 1 or more elements pass the test
+- every -> returns false if any of the elements fail the test function
+- indexOf -> takes in a value and returns the index of that value if it exists in the array
 
 
 #### Higher order functions
