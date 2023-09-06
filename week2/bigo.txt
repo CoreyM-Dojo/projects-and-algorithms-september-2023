@@ -1,0 +1,13 @@
+Space and Time Complexity -> can be separate
+
+
+Omega -> Worst case scenario: If the page is the last page in the book -> will dynamically change based on size of entry 
+Theta -> 1 iteration: if the page you are looking for is page 1
+
+Constant Time Complexity -> O(1)
+Linear Time Complexity -> O(n)
+With Binary search -> O(log2(n))
+Exponential Time Complexity O(n^2)
+
+
+
