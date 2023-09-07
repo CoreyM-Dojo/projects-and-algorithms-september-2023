@@ -4,6 +4,7 @@
 
 - Q & A
 - A bit on Big O notation
+- FileIO
 
 ## Objectives
 
