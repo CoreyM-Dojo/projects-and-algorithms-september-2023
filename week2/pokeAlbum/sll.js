@@ -4,6 +4,44 @@ class SLL {
         this.length = 0
     }
 
+    remove(index=null) {
+
+        
+        let runner = this.head;
+        if (index === 0) {
+            let temp = this.head;
+            this.head = this.head.next;
+            temp.next = null;
+            return this;
+        }
+        
+        if (!index) {
+            while (runner.next.next) {
+                runner = runner.next
+            }
+
+            delete runner.next;
+            runner.next = null;
+            return this;
+        }
+
+        let i = 0;
+        console.log(index);
+        while (i < index-1) {
+            console.log(runner)
+            runner = runner.next
+            i++;
+        }
+
+        // our runner should be the node before the node we are removing
+        console.log("rn",runner.next)
+        console.log("rnn", runner.next.next)
+        let temp = runner.next
+        runner.next = runner.next.next;
+        delete temp.next
+        return this;
+    }
+
     addToBack(val) {
         const newNode = new ListNode(val)
         if (this.length === 0) {this.head = newNode; this.length++; return this}
@@ -74,6 +112,9 @@ class ListNode {
     }
 }
 
-const sll = SLL.fromArray([-1,0,1,2,3,4,5]);
-sll.showList();
+// const sll = SLL.fromArray([-1,0,1,2,3,4,5]);
+// sll.remove(0);
+// sll.showList();
+
+export {SLL, ListNode}
 
