@@ -29,9 +29,9 @@
 - version control for your local machine
 - integrates with github to save projects in the cloud. 
 
-- git init
-- git add
-- git commit
+- git init -> Initialize or create a folder that will hold local repository
+- git add -> adds the changes make to a staging area
+- git commit -m "A great commit message" -> finalize those changes with a message to explain them
 - git checkout
 - git branch
 - git remote
