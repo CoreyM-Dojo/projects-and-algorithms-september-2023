@@ -48,7 +48,7 @@
 
 16. Advanced Data Structures: Depending on the students' proficiency and interest, you can introduce more advanced data structures like B-trees, skip lists, or specialized data structures for specific applications.
 
-### Binary Sort Tree
+### Binary Search Tree
 
 - Anatomy - BST
     - root
